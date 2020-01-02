@@ -1,0 +1,1 @@
+export let api = "https://api-dev.masa.herri.ng";
