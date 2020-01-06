@@ -74,8 +74,8 @@ class Test extends React.Component {
                 </Row>
                 <Row>
                     <Button className="test_button" color="primary" onClick={() => this.test()}>Test</Button>
-                </Row>   
-                <Row> 
+                </Row>
+                <Row>
                     {
                         this.state.test ? (
                             this.state.success ? (
@@ -87,6 +87,9 @@ class Test extends React.Component {
                             <></>
                         )
                     }
+                </Row>
+                <Row>
+                    <Button className="test_button" color="primary" onClick={() => history.push('/display')}>Display</Button>
                 </Row>
             </Container>
         );
