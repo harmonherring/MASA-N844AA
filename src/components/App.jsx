@@ -1,4 +1,5 @@
 import React from 'react';
+import Display from 'components/Display';
 import Login from 'components/Login';
 import Test from 'components/Test';
 import { history } from 'utils';
@@ -11,6 +12,7 @@ class App extends React.Component {
       <Router history={history}>
         <Route exact path="/" component={Test} />
         <Route exact path="/login" component={Login} />
+        <Route exact path="/display" component={Display} />
       </Router>
     );
   }
