@@ -17,9 +17,9 @@ body, html {
 .login_box .title {
     font-family: 'Nunito', sans-serif;
     color: #3D4A51;
-    font-weight:600;
+    font-weight: 600;
     font-size: 36px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 .login_box .form_input {
@@ -35,14 +35,14 @@ body, html {
 .login_box .label {
     font-family: 'Nunito', sans-serif;
     color: #3D4A51;
-    font-weight:600;
+    font-weight: 600;
 }
 
 .login_box .continue {
     background-color: #00D8A1;
     border-color: #00D8A1;
     font-family: 'Nunito', sans-serif;
-    float:right;
+    float: right;
     margin-bottom: 20px;
     outline: none;
 }
