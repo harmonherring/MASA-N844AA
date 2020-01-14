@@ -1,16 +1,13 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-
 import { 
     Container,
     Col,
     Row,
     Alert } from 'reactstrap';
-
 import LoginContents from './LoginContents';
 import RegistrationContents from './RegistrationContents';
 import { history } from 'utils';
-
 import './login.css';
 import 'assets/css/fonts.css';
 

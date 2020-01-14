@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { Button, Form, Input, FormGroup, Label } from 'reactstrap';
-
 import { history } from 'utils';
 
 class LoginContents extends React.Component {

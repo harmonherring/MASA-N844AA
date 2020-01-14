@@ -17,9 +17,9 @@ body, html {
 .login_box .title {
     font-family: 'Nunito', sans-serif;
     color: #3D4A51;
-    font-weight:600;
+    font-weight: 600;
     font-size: 36px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 .login_box .form_input {
@@ -35,15 +35,16 @@ body, html {
 .login_box .label {
     font-family: 'Nunito', sans-serif;
     color: #3D4A51;
-    font-weight:600;
+    font-weight: 600;
 }
 
 .login_box .continue {
     background-color: #00D8A1;
     border-color: #00D8A1;
     font-family: 'Nunito', sans-serif;
-    float:right;
+    float: right;
     margin-bottom: 20px;
+    outline: none;
 }
 
 .login_box .status_danger {
@@ -61,20 +62,20 @@ body, html {
 }
 
 .login_box .continue:hover {
-    background-color: #00c291;
-    border-color: #00c291;
+    background-color: #ecf0f1;
+    border-color: #ecf0f1;
     font-family: 'Nunito', sans-serif;
 }
 
 .login_box .continue:focus {
-    background-color: #00c291;
-    border-color: #00c291;
+    background-color: #ecf0f1;
+    border-color: #ecf0f1;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 1px 3px rgba(0, 216, 151, 0.5);
 }
 
 .login_box .continue:active {
-    background-color: #00c291 !important;
-    border-color: #00c291 !important;
+    background-color: #ecf0f1 !important;
+    border-color: #ecf0f1 !important;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 1px 3px rgba(0, 216, 151, 0.5) !important;
 }
 
