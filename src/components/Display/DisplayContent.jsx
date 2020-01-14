@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './display.css'
 
 class DisplayContent extends React.Component {
@@ -62,7 +61,7 @@ class DisplayContent extends React.Component {
 			return (
 				<div>
 					<div>
-						<button className="back" onClick={(e, go) => this.goTo(e, "/display")}>back</button>
+						<button className="button back" onClick={(e, go) => this.goTo(e, "/display")}>back</button>
 						<b className="log-title">Name: {this.props.currentOpenLog}</b>
 						<br></br>
 						<b className="log-title">UUID: {this.props.currentOpenLogU}</b>

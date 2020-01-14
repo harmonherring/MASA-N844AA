@@ -6,7 +6,7 @@ import { masafetch, isAuthed, history } from 'utils';
 
 import { Button } from 'reactstrap';
 
-import './test.css';
+import './home.css';
 
 class Test extends React.Component {
     constructor(props) {
@@ -73,9 +73,10 @@ class Test extends React.Component {
                     <Button className="test_button" color="danger" onClick={() => this.logout()}>Logout</Button>
                 </Row>
                 <Row>
-                    <Button className="test_button" color="primary" onClick={() => this.test()}>Test</Button>
+                    <button className="button" color="primary" onClick={() => history.push('/display')}>Display</button>
                 </Row>
                 <Row>
+                    <button className="button" color="primary" onClick={() => this.test()}>Test Login</button>
                     {
                         this.state.test ? (
                             this.state.success ? (
@@ -87,9 +88,6 @@ class Test extends React.Component {
                             <></>
                         )
                     }
-                </Row>
-                <Row>
-                    <Button className="test_button" color="primary" onClick={() => history.push('/display')}>Display</Button>
                 </Row>
             </Container>
         );
